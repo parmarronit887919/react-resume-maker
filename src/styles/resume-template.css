@@ -1,0 +1,69 @@
+.resume-template {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: lightgreen;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4vh 2vh 4vh 4vh;
+}
+
+.name {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+.position {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(53, 52, 52);
+  margin: 0;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 1.1rem;
+  background-color: whitesmoke;
+  padding: 4vh 2vh 4vh 4vh;
+}
+
+.experience > p {
+  margin: 0;
+}
+
+.education > p {
+  margin: 0;
+}
+.contactDetails > p {
+  margin: 0;
+}
+
+p {
+  display: flex;
+}
+
+.questions {
+  width: 30%;
+}
+
+.answers {
+  width: 70%;
+}
+
+.subHolder {
+  width: 50%;
+}
+
+.experience {
+  width: 50%;
+}
